@@ -3,6 +3,14 @@ SPDX-FileCopyrightText: Copyright (c) 2021-2023 NVIDIA CORPORATION & AFFILIATES.
 SPDX-License-Identifier: Apache-2.0
 -->
 # Sionna: An Open-Source Library for Next-Generation Physical Layer Research
+## A fork to demonstrate a possible approach for 2D and 3D beam weights computation 
+
+This fork of Sionna is intended to demonstrate analog beamforming computation weights based on Antenna Panel definitions provided in Sionna 0.16.2. Note that this repository is not currently maintained in order to reflect the changes of latest Sionna releases.
+
+Take a look at this notebook for 2D and 3D beamforming computation examples:
+- [examples/Sionna_Ray_Tracing_Analog_Beamsteering.ipynb](examples/Sionna_Ray_Tracing_Analog_Beamsteering.ipynb)
+
+------
 
 Sionna&trade; is an open-source Python library for link-level simulations of digital communication systems built on top of the open-source software library [TensorFlow](https://www.tensorflow.org) for machine learning.
 
